@@ -16,7 +16,7 @@ func productsHandler(c *gin.Context) {
 	products := []Product{
 		{100, "BassTune Headset 2.0", 200, "A headphone with a inbuilt high-quality microphone"},
 		{101, "Fastlane Toy Car", 100, "A toy car that comes with a free HD camera"},
-		{101, "ATV Gear Mouse", 75, "A high-quality mouse for office work and gaming"},
+		{102, "ATV Gear Mouse", 75, "A high-quality mouse for office work and gaming"},
 	}
 	c.JSON(200, gin.H{
 		"products": products,
